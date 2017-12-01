@@ -15,6 +15,9 @@ const routes: Routes = [{
     path: 'case-search',
     component: CaseSearchComponent,
   }, {
+    path: 'case-analysis',
+    loadChildren: './case-analysis/forms.module#FormsModule',
+  }, {
     path: 'ui-features',
     loadChildren: './ui-features/ui-features.module#UiFeaturesModule',
   }, {

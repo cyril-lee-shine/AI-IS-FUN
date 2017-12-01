@@ -12,9 +12,23 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
-    title: '案例分析',
+    title: '案例检索',
     icon: 'nb-coffee-maker',
     link: '/pages/case-search',
+  },
+  {
+    title: '文书分析',
+    icon: 'nb-coffee-maker',
+    children: [
+      {
+        title: 'Form Inputs',
+        link: '/pages/case-analysis/inputs',
+      },
+      {
+        title: 'Form Layouts',
+        link: '/pages/case-analysis/layouts',
+      },
+    ],
   },
   {
     title: 'UI Features',
