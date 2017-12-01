@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { AngularEchartsModule } from 'ngx-echarts';
 
 import { ThemeModule } from '../../@theme/theme.module';
-import { DashboardComponent } from './dashboard.component';
+import { CaseSearchComponent } from './dashboard.component';
 import { StatusCardComponent } from './status-card/status-card.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { RoomsComponent } from './rooms/rooms.component';
@@ -27,7 +27,7 @@ import { TrafficChartComponent } from './traffic/traffic-chart.component';
     AngularEchartsModule,
   ],
   declarations: [
-    DashboardComponent,
+    CaseSearchComponent,
     StatusCardComponent,
     TemperatureDraggerComponent,
     ContactsComponent,
@@ -46,4 +46,4 @@ import { TrafficChartComponent } from './traffic/traffic-chart.component';
     TrafficChartComponent,
   ],
 })
-export class DashboardModule { }
+export class CaseSearchModule { }
